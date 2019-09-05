@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: springboot2
+  thymeleaf:
+    prefix: classpath:/templates
+    suffix: .html
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: false
+    mode: HTML
+
+server:
+    port: 8001
+#    servlet:
+#      context-path: test
+
+long:
+  author: lingzilong
